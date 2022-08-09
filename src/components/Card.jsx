@@ -11,7 +11,7 @@ export function Card({ category }) {
       <div className="card-body">
         <div className="d-flex flex-wrap">
           {imagenes.map((img) => (
-            <div key={img.id}>
+            <div key={img.url}>
               <img src={img.url} alt="" />
             </div>
           ))}

@@ -19,9 +19,10 @@ function App() {
 
   return (
     <>
-      <div className="vh-100 p-4" style={{ background: "#ccc" }}>
+      <div className="vh-auto p-4" style={{ background: "#ccc" }}>
         <div className="container">
           <h2 className="text-bold">Aplicación de gifs</h2>
+
           <Form AddCategory={AddCategory} />
 
           {printRows()}
